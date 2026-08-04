@@ -21,6 +21,7 @@ A Streamlit-powered research assistant that uses a multi-agent LangChain workflo
 
 - Python 3.11 (recommended)
 - A Tavily API key configured in `.env`
+- A microphone-enabled browser for audio input
 
 ## Setup
 
@@ -53,9 +54,10 @@ Then open the local URL displayed by Streamlit in your browser.
 
 ## Usage
 
-1. Enter a research topic in the Streamlit app.
-2. Click `Start Research`.
-3. Review the generated tabs:
+1. Select `Text` or `Audio` input mode.
+2. If using audio, record your topic in the browser and wait for transcription.
+3. Click `Start Research`.
+4. Review the generated tabs:
    - Search Results
    - Scraped Content
    - Final Report

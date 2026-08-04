@@ -16,3 +16,6 @@ lxml>=6.0.1
 
 python-dotenv>=1.1.1
 rich>=13.7.0
+streamlit-audiorecorder>=0.0.5
+speechrecognition>=3.9.0
+pydub>=0.25.1
